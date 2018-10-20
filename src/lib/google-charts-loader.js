@@ -8,7 +8,8 @@
  *  })
  */
 
-const chartsScriptUrl = 'https://www.gstatic.com/charts/loader.js'
+// const chartsScriptUrl = 'https://www.gstatic.com/charts/loader.js'
+const chartsScriptUrl = './loader.js'
 
 let chartsLoaderPromise = null
 const loadedPackages = new Map()
